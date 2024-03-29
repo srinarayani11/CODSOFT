@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" contents="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale="1.0">
+     <title>
+        My Portfolio Website
+     </title>
+    <link rel="stylesheet" href="sty.css">
+</head>
+<body>
+    <div class="port">
+        <nav class="navigation">
+            <img src="images/4.png" class="my">
+            <ul>
+                <li><a href="#">Home</a><float: left></float:></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="detail">
+            <h1> I'm Sri <span>Narayani</span></h1>
+            <p> Here's my official portfolio webpage where 
+                <br>I can demonstrate my professional skills in web development.
+            </p>
+        <a href="#">Download Resume</a>
+        </div>
+        <div class="images">
+            <img src="Images/8.png" class="shape">
+        </div>
+    </div>
+<!-------------about------------->
+<div id="About" class="ab">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/9.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="tit">About Me</h1>
+                <p class="hit">
+                    I am a talented web developer who can create websites that are both aesthetically beautiful and useful. My interest is building user-friendly and elegantly designed websites, and I have a solid grasp of web standards and best practices. I am also skilled in several tools and programming languages.
+                </p>
+                <div class="tab-titles">
+                
+                    <p class="tab-links active-link" onclick="opentab('edu')">Education</p>
+            
+                </div>
+            
+            <div class="tab-contents active-tab" id="edu">
+                <ul>
+                    <li><span>| Matriculation |</span> <br> Grace Matriculation Higher Secondary School - 2019 to 2020<br> Got passed with 88.4 percentage.</li>
+                    <li><span>| Higher Secondary |</span> <br> Grace Matriculation Higher Secondary School - 2020 to 2022<br>Got passed with 93 percentage and was awarded the most disciplined student.</li>
+                    <li><span>| B.E Computer Science Engineering |</span> <br> Sriram Engineering College<br> From 2022</li>
+                </ul>
+            </div>
+           
+        </div>
+
+    </div>
+
+</div>
+<!--------------Skills------------->
+<div id="Skills" class="abc">
+    <div class="containers">
+        <div class="rows">
+            <div class="about-col-01">
+                <img src="Images/1">
+            </div>
+            <div class="about-col-02">
+                <h1 class="tits">Skills</h1>
+                <p class="hits">
+                    Proficient at coding with languages like HTML, CSS, JavaScript for front-end development, and Python, Java, Ruby, and PHP for back-end programming.
+                </p>
+                <div class="tabtitles">
+                
+                    <p class="tablinks active-link" onclick="opentab('edu')">Skilled in</p>
+            
+                </div>
+            
+            <div class="tabcontents active-tab" id="edu">
+                <ul>
+                    <li><span>HTML/CSS </span> <br> Strong foundation in structuring web pages (HTML) and styling their appearance (CSS).</li>
+                    <li><span> Responsive Design </span> <br> Ability to design and develop websites that adapt seamlessly to various screen sizes and devices, ensuring optimal user experience across platforms.</li>
+                    <li><span>JavaScript </span> <br> Expertise in creating interactive elements and dynamic web experiences.</li>
+                    <li><span> Databases  </span> <br>  Knowledge of database design, querying, and manipulation to store and retrieve website data effectively.</li>
+                    <li><span> Testing and Debugging </span> <br> Strong problem-solving skills to identify and fix issues in web applications, ensuring functionality and a polished user experience.</li>
+                </ul>
+            </div>
+           
+        </div>
+
+    </div>
+
+</div>
+
+<!------------Projects---------->
+<section class="portfolio" id="portfolio">
+     <h2 class="heading"> Latest Projects </h2>
+  <div class="portfolio-container">
+    <div class="portfolio-box">
+        <img src="Images/1.jpg" alt="">
+        <div class="portfolio-layer">
+            <h4>Web design</h4>
+            <p>This website features a clean and modern design optimized for conversions, with clear calls to action guiding visitors towards desired action.</p>
+            <i class="fa-solid fa-up-right-from-square"></i>
+        </div>
+    </div>
+    <div class="portfolio-box">
+        <img src="Images/2.jpg" alt="">
+        <div class="portfolio-layer">
+            <h4>Data Analysis and Visualization</h4>
+            <p>This project is about Analyze historical stock prices and visualize trends using libraries like Matplotlib.</p>
+            <i class="fa-solid fa-up-right-from-square"></i>
+        </div>
+    </div>
+    <div class="portfolio-box">
+        <img src="Images/3 (1).jpg" alt="">
+        <div class="portfolio-layer">
+            <h4>Programming Fundamentals</h4>
+            <p>This project develops a program that helps users practice basic math operations like addition, subtraction, multiplication, and division.</p>
+            <i class="fa-solid fa-up-right-from-square"></i>
+        </div>
+    </div>
+    <div class="portfolio-box">
+        <img src="Images/6.jpg" alt="">
+        <div class="portfolio-layer">
+            <h4>Games</h4>
+            <p>This project implements the classic Tic-Tac-Toe game with an AI opponent.</p>
+            <i class="fa-solid fa-up-right-from-square"></i>
+        </div>
+    </div>
+  </div>
+</section>  
+
+<!------------Contact section design------------>
+<section class="contact" id="contact">
+    <h2 class="heading">Contact <span> Me</span.></h2>
+    <form action="#">
+        <div class="input-box">
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email Address">
+        </div>
+
+        <div class="input-box">
+            <input type="number" placeholder="Contact Number">
+            <input type="text" placeholder="Subject">
+        </div>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+        <input type="Submit" value="Send Message" class="btn">
+    </form>
+<!-----------------Footer----------------->
+<footer class="footer">
+    <div class="footer-text">
+       <p> Copyright &copy; 2024 by @SriNarayani| All Rights Reserved.</p>
+    </div>
+    <div class="footer-iconTop">
+        <a href="#Home"><i class="fa-solid fa-angle-up"></i></a>
+    </div>
+</footer>
+</section>
+
+<!-----------------Main.js----------------->
+<script src="main.js"></script>
+</body>
+</html>
